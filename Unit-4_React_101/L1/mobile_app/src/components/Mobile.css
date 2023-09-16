@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.liSquare{
+    list-style-type:square;
+}
+.liCircle{
+    list-style-type:circle;
+}

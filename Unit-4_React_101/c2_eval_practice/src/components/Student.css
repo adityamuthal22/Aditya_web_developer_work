@@ -1,0 +1,25 @@
+.row{
+    margin-left: 10px;
+    background-color: pink;
+    gap: 10px;
+}
+.form{
+    text-align: center;
+}
+.row >td{
+    gap: 10px;
+    padding-left: 10px;
+}
+.controls{
+    text-align: center;
+}
+.table{
+    text-align: center;
+    margin: auto;
+}
+.thead{
+    gap:20px;
+    background-color: teal;
+    font-size: 30px;
+    
+}

@@ -1,0 +1,29 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    border-radius: 10px;
+    width: 98%;
+    margin: auto;
+}
+ .btn{
+     background-color: blue !important;
+ }
+
+ .light{
+    background-color: white;
+    color: black;
+    height: 100vh;
+  }
+  .dark{
+    background-color: black;
+    color: white;
+    height: 100vh;
+  }
+.Sidebar{
+  font-weight: bold;
+  font-size: 30px;
+}

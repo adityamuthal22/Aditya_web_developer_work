@@ -1,0 +1,39 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Learn Redux",
+      "status": false
+    },
+    {
+      "title": "Hello world",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "Hello",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "Hello 1",
+      "status": false,
+      "id": 4
+    },
+    {
+      "title": "Hello 2",
+      "status": false,
+      "id": 5
+    },
+    {
+      "title": "Hello 212",
+      "status": false,
+      "id": 6
+    },
+    {
+      "title": "aditya",
+      "status": false,
+      "id": 7
+    }
+  ]
+}

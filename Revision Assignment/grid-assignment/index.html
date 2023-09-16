@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    .parentBox{
+        width: 100%;
+        border: 1px solid red;
+        height: auto;
+        margin: auto;
+
+    }
+    .Box1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        width: 100%;
+        margin: auto;
+
+    }
+    .Box1>div{
+        /* border: 1px solid blue; */
+        height: 500px;
+    }
+
+    .Box1>:nth-child(1)>img{
+    height: 500px;
+    width: 100%;
+    
+    }
+    .Box2{
+        background-color: #f5e3d7;
+        padding: 45px;
+        box-sizing: border-box;
+    }
+    .Navbar1{
+        display: flex;
+        justify-content: space-around;
+        color: #666;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        cursor: pointer;
+        /* border: 1px solid red; */
+        width: 80%;
+        margin: auto;
+    }
+    .Navbar1>:nth-child(1){
+        color: orange;
+    }
+    .welcome{
+        font-size:13px ;
+        text-transform: uppercase;
+        margin-top: 20px;
+        color: rgb(173, 170, 170);
+    }
+    .hello{
+        font-size: 42px;
+        color: rgb(119, 117, 117);
+        font-weight: 300;
+        font-style: normal;
+    }
+    .hello>:nth-child(1){
+        color: black;
+    }
+    .para1{
+        color: #888;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    }
+    .but1{
+        background-color: transparent;
+    border: 3px solid #232B2B;
+    border-radius: 100px;
+    color: #232B2B;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    padding: 12px 36px;
+    margin-top: 42px;
+    transition: all 0.4s ease-in-out;
+    text-transform: uppercase;
+    cursor: pointer;
+    }
+    .but1:hover{
+        background-color:#E3AE57;
+        color: white;
+    }
+    .AuctorBox2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+      
+    }
+    .AuctorBox2>div{
+        /* border: 1px solid blue; */
+        height: 326px;
+        box-sizing: border-box;
+    }
+   .auctor1{
+        padding: 32px 22px;
+    }
+    .auctorH1{
+        font-size: 42px;
+        padding-bottom: 14px;
+        margin-bottom: 0px;
+        font-weight: 300;
+        color: #888;
+        line-height: 1.1;
+        /* color: inherit; */
+    }
+    .Sed{
+        font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #E3AE57;
+    }
+    .Phasellus{
+        color: #888;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    }
+    .auctorSkill{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+    }
+    .auctorSkill>div>img{
+        height: 326px;
+        width: 100%;
+    }
+    .Skill1{
+        padding: 10px 30px;
+        background-color: #e3ae57;
+        box-sizing: border-box;
+        height: 326px;
+    }
+    .Skill1>h1{
+    font-size: 42px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    color: white;
+
+    }
+    .Skill1>p{
+        font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    color: white;
+    }
+    .Technology{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: auto;
+        height: 336px;
+    }
+    .Technology>div{
+        border: 1px solid green;
+        padding: 52px 22px;
+    }
+  .moniter{
+    background-color:#E3AE57;
+  }
+  .moniter>span{
+    color: white;
+  font-size: 42px;
+ 
+  }
+</style>
+<body>
+<div class="parentBox">
+    <div class="Box1">
+        <div>
+            <img src="https://templatemo.com/templates/templatemo_498_stimulus/images/home-img.jpg" alt="heroImage" />
+        </div>
+        <div class="Box2">
+            <div class="Navbar1">
+                <p>Home</p>
+                <p>About Me</p>
+                <p>Experiences</p>
+                <p>Tsetimonial</p>
+                <p>COntact</p>
+            </div>
+            <div class="welcome">
+                <p>Welcome to my website</p>
+            </div>
+            <div >
+                <h1 class="hello">Hello, I am <span>Stimulus</span> currently based in New York city.</h1>
+                <p class="para1">Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.</p>
+            </div>
+            <div>
+                <button class="but1">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <div class="AuctorBox2">
+        <div class="auctor1">
+            <h1 class="auctorH1">Donec auctor</h1>
+            <p class="Sed">Sed vulputate vitae diam quis bibendum</p>
+            <p class="Phasellus">Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.
+             Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.</p>
+        </div>
+        <div class="auctorSkill">
+            <div>
+                <img src="https://templatemo.com/templates/templatemo_498_stimulus/images/about-img.jpg" alt="secondHero">
+            </div>
+            <div class="Skill1">
+                <h1>My Skills</h1>
+                <p>Photoshop . HTML CSS JS . Web Design</p>
+                <div>
+                    <p>  Frontend Design</p><hr>
+                    <p>Backend processing</p><hr>
+                    <p>HTML5 & CSS3</p><hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Technology">
+        <div class="moniter">
+            <span><i class="fa-solid fa-desktop"></i></span>
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+</body>
+</html>

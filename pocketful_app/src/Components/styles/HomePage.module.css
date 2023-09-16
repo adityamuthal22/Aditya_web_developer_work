@@ -1,0 +1,29 @@
+.MainDiv {
+    width: 100%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    /* row-gap: 50px; */
+    /* padding-bottom: 100px; */
+    background-color: rgb(244, 249, 249);
+    /* border: 1px solid red; */
+    margin-top: 10px;
+  }
+  .AllDiv {
+    width: 230px;
+    height: 470px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: left;
+   
+  }
+  .Image1 {
+    /* border: 1px solid gold; */
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
